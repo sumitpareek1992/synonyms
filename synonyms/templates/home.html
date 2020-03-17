@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>synonyms</title>
+	<style type="text/css">
+		.main {
+			margin-right: 50%;
+			margin-bottom: 80%;
+			margin-left: 5%;
+			margin-top: 4%;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+	<h1>For Getting Synonyms Type Here</h1>
+		<form method="post">{% csrf_token %}
+  		<input class="form-control"  type="text" name="q" id="id_q" placeholder="Search..."><br><br>
+  		<button type="submit">Submit</button><br><br>
+  			{{lst}}
+  			{{msg}}
+  </div>
+
+</form>
+</body>
+</html>
