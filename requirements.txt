@@ -3,7 +3,7 @@ beautifulsoup4==4.8.2
 certifi==2019.11.28
 chardet==3.0.4
 click==7.1.1
-Django==3.0.4
+Django==3.0.14
 futures==3.1.1
 goslate==1.5.1
 idna==2.9
